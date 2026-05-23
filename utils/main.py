@@ -53,7 +53,7 @@ while True:
         new_patient = Patient(new_id, name, age, phone, disease)
 
         if update_patient(old_id, new_patient):
-            print("Patient updated successfully!")
+            print("Patient updated successfully")
         else:
             print("Patient not found!")
 
